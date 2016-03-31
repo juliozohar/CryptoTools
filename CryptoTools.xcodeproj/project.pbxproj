@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E87468FA1CACCA2C00D33909 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E87468F91CACCA2C00D33909 /* main.c */; };
 		E87469021CACCAD100D33909 /* Satoshi.c in Sources */ = {isa = PBXBuildFile; fileRef = E87469001CACCAD100D33909 /* Satoshi.c */; };
-		E8985F4A1CACE9FE00257F18 /* caesar.c in Sources */ = {isa = PBXBuildFile; fileRef = E8985F481CACE9FE00257F18 /* caesar.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		E87468F91CACCA2C00D33909 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E87469001CACCAD100D33909 /* Satoshi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Satoshi.c; sourceTree = "<group>"; };
 		E87469011CACCAD100D33909 /* Satoshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Satoshi.h; sourceTree = "<group>"; };
-		E8985F481CACE9FE00257F18 /* caesar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = caesar.c; sourceTree = "<group>"; };
-		E8985F491CACE9FE00257F18 /* caesar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caesar.h; sourceTree = "<group>"; };
 		E8985F4C1CACEA9B00257F18 /* openssl.cnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openssl.cnf; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.applescript; };
 /* End PBXFileReference section */
 
@@ -67,8 +64,6 @@
 				E87468F91CACCA2C00D33909 /* main.c */,
 				E87469001CACCAD100D33909 /* Satoshi.c */,
 				E87469011CACCAD100D33909 /* Satoshi.h */,
-				E8985F481CACE9FE00257F18 /* caesar.c */,
-				E8985F491CACE9FE00257F18 /* caesar.h */,
 				E8985F4C1CACEA9B00257F18 /* openssl.cnf */,
 			);
 			path = CryptoTools;
@@ -130,7 +125,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8985F4A1CACE9FE00257F18 /* caesar.c in Sources */,
 				E87468FA1CACCA2C00D33909 /* main.c in Sources */,
 				E87469021CACCAD100D33909 /* Satoshi.c in Sources */,
 			);
